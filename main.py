@@ -34,11 +34,11 @@ def add_job(person, job):
 #         person.__setitem__("job","IT")
 #     return person
   if "job" not in person:
-    person["job"]="eng"
+    person["job"]=job
   else:
     print("the key is already there")
   return person
-print(add_job(person,"job"))
+print(add_job(person,"IT"))
 
 
 
